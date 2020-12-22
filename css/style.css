@@ -1,0 +1,103 @@
+/*common start*/
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'playfair display', serif;
+	font-weight: 400;
+	color: #626262;
+}
+/*common end*/
+/*header start*/
+header{
+	padding: 25px 0;
+	/*border: 1px solid black;*/
+}
+.wrapper{
+	overflow: hidden;
+	width: 90%;
+	/*border: 1px solid red;*/
+	margin: 0 auto;
+}
+.logo{
+	margin-top: 10px;
+	float: left;
+	width: 13%;
+	/*border: 1px solid blue;*/
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	float: right;
+	width: 70%;
+	/*border: 1px solid blue;*/
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	float: left;
+	list-style: none;
+}
+.menu ul li a{
+	margin: 0 50px;
+	font-size: 16px;
+	font-weight: 400;
+	color: #626262;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 5px 3px;
+	display: inline-block;
+	border-bottom: 1px solid transparent;
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+.menu ul li a:hover{
+	border-bottom: 1px solid #626262;
+}
+/*header end*/
+/*banner start*/
+.banner{}
+.banner img{
+	width: 100%;
+}
+/*banner end*/
+/*perfect start*/
+.perfect{
+
+	padding: 70px 0;
+}
+.wrapper2{
+	margin:0 auto;
+	width: 80%;
+	/*border: 1px solid red;*/
+}
+.p_content{}
+.c_light{
+	margin: 0;
+	font-family:'ubuntu', sans-serif;
+	font-size:14px;
+	font-weight:300;
+	color: #b4ad9e;
+	text-transform: uppercase;
+}
+.c_h1{
+	margin-top: 20;
+	margin-bottom: 30; 
+	font-size: 30px;
+	font-weight: 400;
+}
+.c_p{
+	margin: 0;
+	font-size: 16px;
+	letter-spacing: 0.3px;
+	line-height: 25px;
+	text-transform: capitalize;
+}
+.mt_35{
+	margin-top: 35px;
+}
+
+
+/*perfect end*/
